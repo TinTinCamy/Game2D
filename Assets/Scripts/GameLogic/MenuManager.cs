@@ -6,43 +6,52 @@ using UnityEngine.UI;
  public class MenuManager : MonoBehaviour
  {
     [SerializeField] private Button playButton;
-    [SerializeField] private Button OptionButton;
+    [SerializeField] private Button settingButton;
     [SerializeField] private Button exitButton;
-    [SerializeField] private GameObject optionPanel;
+    [SerializeField] private Button backButton;
+    [SerializeField] private GameObject settingPanel;
     [SerializeField] private GameObject mainPanel;
 
-    private bool onOptionPanel;
+    private bool onSettingPanel;
 
     private void OnEnable()
     {
         playButton.onClick.AddListener(OnClickPlay);
-        OptionButton.onClick.AddListener(OnClickOption);
+        settingButton.onClick.AddListener(OnClickSetting);
         exitButton.onClick.AddListener(OnClickExit);        
     }
 
     private void OnDisable()
     {
         playButton.onClick.RemoveListener(OnClickPlay);
-        OptionButton.onClick.RemoveListener(OnClickOption);
+        settingButton.onClick.RemoveListener(OnClickSetting);
         exitButton.onClick.RemoveListener(OnClickExit);
     }
 
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && onOptionPanel)
+        if (Input.GetKeyDown(KeyCode.Escape) && onSettingPanel)
             SceneManager.LoadScene("MenuScene");
     }
     private void OnClickPlay()
     {
-        SceneManager.LoadScene("PlayGameScene");
+        //SceneManager.LoadScene("PlayGameScene");
+        SceneManager.LoadScene(1);
     }
 
-    private void OnClickOption()
+    public void OnBackButton()
+    {     
+        settingPanel.SetActive(false);
+        mainPanel.SetActive(true);
+        
+    }
+
+    public void OnClickSetting()
     {
-        onOptionPanel = !onOptionPanel;
-        if(onOptionPanel)
+        onSettingPanel = !onSettingPanel;
+        if(onSettingPanel)
         {
-            optionPanel.SetActive(true);
+            settingPanel.SetActive(true);
         }
         else 
         {

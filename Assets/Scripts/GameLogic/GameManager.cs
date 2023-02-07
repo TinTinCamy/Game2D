@@ -29,6 +29,8 @@ public class GameManager : MonoBehaviour
 
     [Header("Player scripts")]
     [SerializeField] private PlayerController playerController;
+
+    [Header("Enemy script")]
     [SerializeField] private EnemyController enemyController;
 
     // public
@@ -94,16 +96,6 @@ public class GameManager : MonoBehaviour
         EndGame();
     }
 
-    //public void DiePanel()
-    //{
-    //    dieGamePanel.SetActive(true);
-    //}
-    //public IEnumerator ShowDiePanelForSeconds(float seconds)
-    //{
-    //    dieGamePanel.SetActive(true);
-    //    yield return new WaitForSeconds(seconds);
-    //    dieGamePanel.SetActive(false);
-    //}
     public void Init()
     {
         // Init player's scripts

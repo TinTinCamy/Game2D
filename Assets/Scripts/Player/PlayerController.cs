@@ -11,9 +11,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 8f;
     [SerializeField] private float jumpPower = 16f;
     [SerializeField] private Transform groundCheck;
-    [SerializeField] private LayerMask groundLayer;   
-    [SerializeField] private static readonly Vector3 InitialPosition = new(86f, 1.5f, 1f);
+    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private static readonly Vector3 InitialPosition = new(250.11f, 16f, 1f);
+    //[SerializeField] private static Vector3 InitialPosition = new(-13, 0f, 1f);
+    //[SerializeField] private static readonly Vector3 InitialPosition = new(196.19f, 4f, 1f);
     [SerializeField] private GameManager gameManager;
+    [SerializeField] private AudioClip playerJump;
 
     // private    
     private float horizontal;
@@ -21,13 +24,14 @@ public class PlayerController : MonoBehaviour
     private int currentScore = 0;
     private bool _isMovable;
     private int maxTurn = 3;
-    
 
-    // public
+
+    // public   
     public Rigidbody2D rb2d;
     public Animator animator;
     public Vector2 Position;
     public int currentTurn;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +53,7 @@ public class PlayerController : MonoBehaviour
         // If player is on the ground and press jump
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
+            AudioManager.instantiate.PlaySound(playerJump);
             rb2d.velocity = new Vector2(rb2d.velocity.x, jumpPower);
         }
 
@@ -106,10 +111,6 @@ public class PlayerController : MonoBehaviour
     {
         _isMovable = isMovable;
         rb2d.velocity = Vector2.zero;
-        //if (isMovable)
-        //    rb2d.bodyType = RigidbodyType2D.Dynamic;
-        //else
-        //    rb2d.bodyType = RigidbodyType2D.Kinematic;
     }
 
     public void GetScore(int amount)
@@ -120,6 +121,15 @@ public class PlayerController : MonoBehaviour
         gameManager.pauseScoreText.text = " " + score;
         gameManager.endgameScoreText.text = " " + score;
     }
+
+    public void GetTurn()
+    {
+        if (currentTurn < maxTurn)
+        {
+            currentTurn++;
+            gameManager.turnText.text = " " + currentTurn;
+        }
+    }    
 
     public void OnPlayerDead()
     {      

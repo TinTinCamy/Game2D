@@ -5,17 +5,33 @@ using UnityEngine;
 
 public class Treasure : MonoBehaviour
 {
-    [SerializeField] private GameObject explosion;
+    [SerializeField] private Animator anim;
     [SerializeField] private PlayerController playerController;
-    [SerializeField] private GameManager gameManager;
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
-    {            
-        PlayerController controller = collision.GetComponent<PlayerController>();
-        if (controller != null)
-        {          
-            //// Initialization The Explosion
-            Instantiate(explosion, transform.position, Quaternion.identity);
-            Destroy(gameObject);
-        }
+    {                 
+        
+        if (playerController != null)
+        {
+            SetAnimation();                
+            Destroy(gameObject,0.5f);
+            //playerController.OnPlayerDead();
+            
+        }      
+    }
+
+    private void SetAnimation()
+    {
+        anim.SetBool("Explosion", true);
+    }
+
+    private void PlayerDead()
+    {
+        Debug.Log("Treasure");
+        playerController.OnPlayerDead();
     }
 }

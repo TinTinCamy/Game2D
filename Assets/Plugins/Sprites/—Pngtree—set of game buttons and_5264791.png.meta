@@ -137,7 +137,7 @@ TextureImporter:
         width: 2054
         height: 1536
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,7 +158,7 @@ TextureImporter:
         width: 1422
         height: 429
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -179,7 +179,7 @@ TextureImporter:
         width: 1410
         height: 479
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,7 +200,7 @@ TextureImporter:
         width: 1249
         height: 409
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -221,7 +221,7 @@ TextureImporter:
         width: 2020
         height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,7 +242,7 @@ TextureImporter:
         width: 2019
         height: 147
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -263,7 +263,7 @@ TextureImporter:
         width: 2018
         height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -284,7 +284,7 @@ TextureImporter:
         width: 1501
         height: 515
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -305,7 +305,7 @@ TextureImporter:
         width: 1400
         height: 433
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -326,7 +326,7 @@ TextureImporter:
         width: 1411
         height: 455
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -334,6 +334,111 @@ TextureImporter:
       bones: []
       spriteID: fd84714b1cafba0448f8c8f5ac77493b
       internalID: -605909924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of game buttons and_5264791_10"
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1374
+        width: 1908
+        height: 1816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac7866838a3db548ba13591e716124a
+      internalID: -1063338716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of game buttons and_5264791_11"
+      rect:
+        serializedVersion: 2
+        x: 4068
+        y: 1945
+        width: 822
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123373742dfb71d449164ba90f5c1545
+      internalID: -775316789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of game buttons and_5264791_12"
+      rect:
+        serializedVersion: 2
+        x: 4062
+        y: 989
+        width: 835
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c16a70bc002bc4594d53a43c42941c
+      internalID: -921630360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of game buttons and_5264791_13"
+      rect:
+        serializedVersion: 2
+        x: 3995
+        y: 2819
+        width: 748
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b79446547f9c924ab3531c5270b6b67
+      internalID: 1948686537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of game buttons and_5264791_14"
+      rect:
+        serializedVersion: 2
+        x: 3993
+        y: 3745
+        width: 750
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a5b62d3764bdc47888d55d85b31e39
+      internalID: 687220120
       vertices: []
       indices: 
       edges: []
@@ -351,9 +456,14 @@ TextureImporter:
     nameFileIdTable:
       "\u2014Pngtree\u2014set of game buttons and_5264791_4": -511344201
       "\u2014Pngtree\u2014set of game buttons and_5264791_6": -1859854358
+      "\u2014Pngtree\u2014set of game buttons and_5264791_12": -921630360
       "\u2014Pngtree\u2014set of game buttons and_5264791_2": -1479351581
+      "\u2014Pngtree\u2014set of game buttons and_5264791_10": -1063338716
       "\u2014Pngtree\u2014set of game buttons and_5264791_8": 1266822872
+      "\u2014Pngtree\u2014set of game buttons and_5264791_14": 687220120
+      "\u2014Pngtree\u2014set of game buttons and_5264791_11": -775316789
       "\u2014Pngtree\u2014set of game buttons and_5264791_1": 1128790011
+      "\u2014Pngtree\u2014set of game buttons and_5264791_13": 1948686537
       "\u2014Pngtree\u2014set of game buttons and_5264791_7": 238281134
       "\u2014Pngtree\u2014set of game buttons and_5264791_9": -605909924
       "\u2014Pngtree\u2014set of game buttons and_5264791_3": -2053320752

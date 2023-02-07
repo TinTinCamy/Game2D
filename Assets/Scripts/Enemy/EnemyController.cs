@@ -7,15 +7,17 @@ public class EnemyController : MonoBehaviour
 {
     [SerializeField] private float speed = 3f;
     [SerializeField] private float changeTime = 3.0f;
+    [SerializeField] private int direction = 1;
     
-    private bool isMovable;
-
+    public Animator animator;
+    public bool isMovable;
     private Rigidbody2D rb2d;
     float timer;
-    int direction = 1;
+    
 
     public void Start()
     {
+        animator = GetComponent<Animator>();
         isMovable = true;
         timer = changeTime;
         rb2d = GetComponent<Rigidbody2D>();
@@ -49,10 +51,5 @@ public class EnemyController : MonoBehaviour
         {
             transform.localScale = new Vector2(-1, 1);
         }
-    }
-
-    public void SetMovable(bool _ismovable)
-    {
-        isMovable = _ismovable; 
     }
 }

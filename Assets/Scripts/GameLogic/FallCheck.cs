@@ -8,9 +8,14 @@ public class FallCheck : MonoBehaviour
     {
         
         PlayerController controller = collision.GetComponent<PlayerController>();
+        explosivebombs explosivebombs = collision.GetComponent<explosivebombs>();
         if (controller != null)
         {
             controller.OnPlayerDead();
+        }
+        if(explosivebombs != null)
+        {
+            Destroy(explosivebombs);
         }
     }
 }

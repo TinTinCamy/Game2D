@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,7 +127,51 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: kisspng-sprite-ori-and-the-blind-forest-2d-computer-graphi-5b39f292f22467.4187680815305243069918
+        (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 395
+        width: 481
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c733578388d81488013bdb21d782a8
+      internalID: 697108992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-ori-and-the-blind-forest-2d-computer-graphi-5b39f292f22467.4187680815305243069918
+        (1)_1
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 0
+        width: 409
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675090a8de8cc9e4882f2762f8bbf831
+      internalID: -759660804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +182,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kisspng-sprite-ori-and-the-blind-forest-2d-computer-graphi-5b39f292f22467.4187680815305243069918 (1)_0: 697108992
+      kisspng-sprite-ori-and-the-blind-forest-2d-computer-graphi-5b39f292f22467.4187680815305243069918 (1)_1: -759660804
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

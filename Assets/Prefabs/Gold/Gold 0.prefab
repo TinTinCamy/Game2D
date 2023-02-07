@@ -119,6 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa05382473206de42bde17c5bfa50a6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  getCoin: {fileID: 8300000, guid: 5d35acf886f4f70429d1465c07b1894d, type: 3}
   value: 3
 --- !u!61 &7844372725149639477
 BoxCollider2D:

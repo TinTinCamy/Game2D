@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 270
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,7 +127,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014fruit game icon png_8362133_0"
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1072
+        width: 319
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba2f8652a0ecf54a96ac6d756c1174c
+      internalID: -111996220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014fruit game icon png_8362133_1"
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1072
+        width: 325
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd711d6895090344b6090d5a24471d6
+      internalID: -1692032538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014fruit game icon png_8362133_2"
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 572
+        width: 323
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1222a89579e36ee4fa0b1a5400d15b12
+      internalID: 1002015929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014fruit game icon png_8362133_3"
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 595
+        width: 356
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65310b5c5a6cf9942baa48fb2eb478a5
+      internalID: -693905333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014fruit game icon png_8362133_4"
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1071
+        width: 268
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad401ccf76307644b95a1c106fb90685
+      internalID: 725006868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014fruit game icon png_8362133_5"
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 91
+        width: 313
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72979dcc8915a2b4a987bde239c6795b
+      internalID: 1563858922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +264,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "\u2014Pngtree\u2014fruit game icon png_8362133_4": 725006868
+      "\u2014Pngtree\u2014fruit game icon png_8362133_5": 1563858922
+      "\u2014Pngtree\u2014fruit game icon png_8362133_0": -111996220
+      "\u2014Pngtree\u2014fruit game icon png_8362133_2": 1002015929
+      "\u2014Pngtree\u2014fruit game icon png_8362133_3": -693905333
+      "\u2014Pngtree\u2014fruit game icon png_8362133_1": -1692032538
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

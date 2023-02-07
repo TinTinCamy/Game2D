@@ -12,7 +12,7 @@ public class TriggerZone2 : MonoBehaviour
         if (controller != null)
         {
             spikeB.gameObject.SetActive(true);
-            spikeB.rb2d.gravityScale = 4;
+            spikeB.rb2d.gravityScale = 3;
             //controller.SetMovable(isMovable);
             Destroy(gameObject);
         }
